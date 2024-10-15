@@ -953,7 +953,7 @@ const sendMessage = async (total) => {
         let nanti = Math.trunc(Date.now()/1000) + Number(process.env.REFRESH_TOKEN)
 
         while (sekarang < nanti) {
-            console.log(figlet.textSync('yescoin botjs', {font: "Ogre"}), '\n')
+            console.log(figlet.textSync('AIRDROP_UNLIMITED', {font: "Ogre"}), '\n')
             console.log("Auto upgrade boost :", process.env.AUTO_UPGRADE == "true" ? clc.green('On') : "Off")
             console.log("Auto claim task :", process.env.AUTO_TASKS == "true" ? clc.green('On') : "Off")
             console.log("")
